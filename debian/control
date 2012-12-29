@@ -1,15 +1,19 @@
 Source: sfuzz
-Section: unknown
+Section: utils
 Priority: extra
 Maintainer: Devon Kearns <dookie@kali.org>
-Build-Depends: debhelper (>= 8.0.0), autotools-dev
+Build-Depends: debhelper (>= 8.0.0), autotools-dev, libssl-dev
 Standards-Version: 3.9.3
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/sfuzz.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/sfuzz.git;a=summary
+Homepage: http://aconole.brad-x.com/programs/sfuzz.html
+Vcs-Git: ssh://git@git.kali.org/packages/sfuzz.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/sfuzz.git;a=summary
 
 Package: sfuzz
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${shlibs:Depends}, ${misc:Depends}, libssl1.0.0
+Description: Black Box testing utilities
+ In the same vein as the Generic Protocol Framework, sfuzz is 
+ a really simple to use black box testing suite called Simple 
+ Fuzzer (what else would you expect?). The goal is to provide 
+ a simple to use, but fairly powerful and flexible black box 
+ testing utility.
