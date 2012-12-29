@@ -1,0 +1,5 @@
+sfuzz (0.7.0-1) unstable; urgency=low
+
+  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+
+ -- Devon Kearns <dookie@kali.org>  Sat, 29 Dec 2012 07:43:18 -0700
