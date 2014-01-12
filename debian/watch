@@ -1,0 +1,3 @@
+version=3
+
+http://aconole.brad-x.com/programs/sfuzz.html /files/sfuzz-0.7-dist/sfuzz-([\d\.]+)\.(?:tgz|tbz2|txz|tar\.gz|tar\.bz2|tar\.xz)
